@@ -1,7 +1,12 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
+
     plugins: [react()],
-    base: '/Thinkraft/',   // REQUIRED for subpath deployment
-})
+
+    base: command === 'build'
+        ? '/Thinkraft/'   // GitHub Pages production
+        : '/',            // local development
+
+}))
