@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
     plugins: [react()],
-    base: '/thinkraft/',   // REQUIRED for subpath deployment
+    base: '/Thinkraft/',   // REQUIRED for subpath deployment
 })
