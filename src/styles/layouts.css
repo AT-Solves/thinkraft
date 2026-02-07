@@ -1,0 +1,210 @@
+.content-area {
+    padding: var(--space-xl);
+}
+.app-shell {
+    min-height: 100vh;
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+}
+
+.app-root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.thinkraft-hero {
+    text-align: center;
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-xl);
+}
+
+.thinkraft-hero-title {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: var(--space-md);
+}
+
+.thinkraft-hero-subtitle {
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-lg);
+}
+
+.thinkraft-phase-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-lg);
+    margin-top: var(--space-xl);
+}
+
+.thinkraft-info-section {
+    margin-top: var(--space-xl);
+    text-align: center;
+}
+
+.thinkraft-section-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: var(--space-md);
+}
+
+.thinkraft-info-list {
+    color: var(--color-text-secondary);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+/* =========================================
+   PageShell Layout
+========================================= */
+
+.page-shell {
+    min-height: 100vh;
+    background-color: var(--color-background);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.page-shell-header {
+    background-color: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+}
+
+
+.page-shell-header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--space-md) var(--space-lg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.page-shell-brand {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-sm);
+}
+
+
+.page-shell-brand-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.page-shell-brand-subtitle {
+    font-size: 14px;
+    color: var(--color-text-secondary);
+}
+
+
+.page-shell-actions {
+    display: flex;
+    gap: var(--space-sm);
+}
+
+
+.page-shell-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--space-xl);
+    width: 100%;
+}
+
+/* =========================================
+   Thinkraft Dashboard Layout
+========================================= */
+
+.thinkraft-dashboard {
+    display: flex;
+    min-height: 100vh;
+}
+
+
+.thinkraft-dashboard-main {
+    flex: 1;
+    padding: var(--space-xl);
+}
+
+
+/* Sidebar */
+
+.thinkraft-sidebar {
+    width: 260px;
+    background-color: var(--color-surface);
+    border-right: 1px solid var(--color-border);
+    padding: var(--space-lg);
+}
+
+
+.thinkraft-sidebar-brand {
+    font-weight: 600;
+    margin-bottom: var(--space-lg);
+}
+
+
+.thinkraft-sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+
+.thinkraft-sidebar-item {
+    padding: var(--space-sm);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+}
+
+
+    .thinkraft-sidebar-item:hover {
+        background-color: var(--color-background);
+    }
+
+
+/* Dashboard Content */
+
+.thinkraft-dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-lg);
+}
+
+
+.thinkraft-dashboard-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.thinkraft-dashboard-sessions {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+
+/* Session Card */
+
+.thinkraft-session-card-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.thinkraft-session-title {
+    font-weight: 600;
+}
+
+
+.thinkraft-session-phase {
+    font-size: 14px;
+    color: var(--color-text-secondary);
+}
+
+
