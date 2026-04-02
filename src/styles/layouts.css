@@ -206,5 +206,54 @@
     font-size: 14px;
     color: var(--color-text-secondary);
 }
+/* =========================================
+   THINKRAFT WORKSPACE LAYOUT
+========================================= */
+
+.thinkraft-workspace {
+}
+
+.thinkraft-workspace__card {
+}
+
+.thinkraft-workspace__phase {
+    font-size: 14px;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-sm);
+}
+
+.thinkraft-workspace__question {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: var(--space-lg);
+    color: var(--color-text);
+}
+
+.thinkraft-workspace__input {
+    width: 100%;
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border);
+    background-color: var(--color-surface);
+    font-size: 15px;
+    resize: vertical;
+    margin-bottom: var(--space-lg);
+}
+
+    .thinkraft-workspace__input:focus {
+        outline: none;
+        border-color: var(--color-primary);
+    }
+
+.thinkraft-workspace__actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thinkraft-workspace__progress {
+    margin-top: var(--space-md);
+    font-size: 13px;
+    color: var(--color-text-secondary);
+}
 
 

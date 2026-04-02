@@ -1,33 +1,24 @@
-import React from "react";
+import { memo } from "react";
 
 /**
  * Thinkraft Global Application Shell
  *
- * Responsibilities:
- * - Provides global layout container
- * - Applies design system layout classes
- * - Hosts router content
- * - Future integration point for:
- *    - Auth Provider
- *    - Theme Provider
- *    - AI Context Provider
- *    - Session Provider
+ * Provides global layout container and future integration points for:
+ * - Auth Provider
+ * - Theme Provider
+ * - Session Provider
+ *
+ * Memoized to prevent unnecessary re-renders.
  */
 
-export default function App({ children }) {
-
+const App = memo(function App({ children }) {
     return (
-
         <div className="app-shell">
-
-            <div className="app-root">
-
-                {children}
-
-            </div>
-
+            <div className="app-root">{children}</div>
         </div>
-
     );
+});
 
-}
+App.displayName = "App";
+
+export default App;

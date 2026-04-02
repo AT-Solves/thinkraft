@@ -1,43 +1,25 @@
+import { SIDEBAR, UI_CLASSES } from "../../../config/constants";
+
 /**
- * ThinkraftSidebar
- *
- * Displays Thinkraft navigation phases.
+ * ThinkraftSidebar - Navigation phases sidebar
  */
-
 export default function ThinkraftSidebar() {
-
     return (
-
-        <aside className="thinkraft-sidebar">
-
-            <div className="thinkraft-sidebar-brand">
-
-                Thinkraft
-
+        <aside className={UI_CLASSES.SIDEBAR.WRAPPER}>
+            <div className={UI_CLASSES.SIDEBAR.BRAND}>
+                {SIDEBAR.BRAND}
             </div>
 
-            <nav className="thinkraft-sidebar-nav">
-
-                <div className="thinkraft-sidebar-item">
-                    Phase 0 : Orientation
-                </div>
-
-                <div className="thinkraft-sidebar-item">
-                    Phase 1 : Idea Clarity
-                </div>
-
-                <div className="thinkraft-sidebar-item">
-                    Phase 2 : Evidence & Logic
-                </div>
-
-                <div className="thinkraft-sidebar-item">
-                    Phase 3 : Investor Packaging
-                </div>
-
+            <nav className={UI_CLASSES.SIDEBAR.NAV}>
+                {SIDEBAR.PHASES.map((phase) => (
+                    <div
+                        key={phase.label}
+                        className={UI_CLASSES.SIDEBAR.ITEM}
+                    >
+                        {phase.label}: {phase.title}
+                    </div>
+                ))}
             </nav>
-
         </aside>
-
     );
-
 }

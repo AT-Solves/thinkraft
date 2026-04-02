@@ -1,45 +1,33 @@
 import ThinkraftDashboardLayout from "../components/ThinkraftDashboardLayout";
 import SessionCard from "../components/SessionCard";
 import Button from "../../../shared/components/Button";
+import { DASHBOARD_PAGE, UI_CLASSES } from "../../../config/constants";
 
 /**
- * ThinkraftDashboard Page
+ * Dashboard Page - Displays user sessions
  */
-
 export default function ThinkraftDashboard() {
-
     return (
-
         <ThinkraftDashboardLayout>
-
-            <div className="thinkraft-dashboard-header">
-
-                <h1 className="thinkraft-dashboard-title">
-                    Your Sessions
+            <div className={UI_CLASSES.SECTIONS.DASHBOARD_HEADER}>
+                <h1 className={UI_CLASSES.TITLES.DASHBOARD}>
+                    {DASHBOARD_PAGE.HEADER.TITLE}
                 </h1>
 
                 <Button>
-                    New Session
+                    {DASHBOARD_PAGE.HEADER.NEW_SESSION_BTN}
                 </Button>
-
             </div>
 
-            <div className="thinkraft-dashboard-sessions">
-
-                <SessionCard
-                    title="Startup Idea Validation Platform"
-                    phase="Phase 1 - Idea Clarity"
-                />
-
-                <SessionCard
-                    title="B2B Trust Marketplace"
-                    phase="Phase 2 - Evidence & Logic"
-                />
-
+            <div className={UI_CLASSES.SECTIONS.DASHBOARD_SESSIONS}>
+                {DASHBOARD_PAGE.SAMPLE_SESSIONS.map((session) => (
+                    <SessionCard
+                        key={session.id}
+                        title={session.title}
+                        phase={session.phase}
+                    />
+                ))}
             </div>
-
         </ThinkraftDashboardLayout>
-
     );
-
 }

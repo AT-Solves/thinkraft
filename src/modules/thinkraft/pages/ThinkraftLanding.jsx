@@ -1,73 +1,52 @@
 import PageShell from "../../../shared/layout/PageShell";
 import PhaseCard from "../components/PhaseCard";
 import { useNavigate } from "react-router-dom";
+import { ROUTES } from "../../../app/routes";
+import { LANDING_PAGE, UI_CLASSES } from "../../../config/constants";
 
 export default function ThinkraftLanding() {
-
     const navigate = useNavigate();
 
     return (
-
         <PageShell>
-
-            <section className="thinkraft-hero">
-
-                <h1 className="thinkraft-hero-title">
-                    Thinkraft
+            <section className={UI_CLASSES.SECTIONS.HERO}>
+                <h1 className={UI_CLASSES.TITLES.HERO}>
+                    {LANDING_PAGE.HERO.TITLE}
                 </h1>
 
-                <p className="thinkraft-hero-subtitle">
-                    Craft your thinking. Own your idea.
+                <p className={UI_CLASSES.TITLES.HERO_SUBTITLE}>
+                    {LANDING_PAGE.HERO.SUBTITLE}
                 </p>
 
                 <button
-                    onClick={() => navigate("/thinkraft/dashboard")}
-                    className="btn-primary"
+                    onClick={() => navigate(ROUTES.DASHBOARD)}
+                    className={UI_CLASSES.BUTTONS.PRIMARY}
                 >
-                    Get Started
+                    {LANDING_PAGE.HERO.CTA_TEXT}
                 </button>
-
             </section>
 
-            <section className="thinkraft-phase-section">
-
-                <PhaseCard
-                    title="Phase 1"
-                    description="Idea Clarity"
-                />
-
-                <PhaseCard
-                    title="Phase 2"
-                    description="Evidence & Logic"
-                />
-
-                <PhaseCard
-                    title="Phase 3"
-                    description="Investor Ready"
-                />
-
+            <section className={UI_CLASSES.SECTIONS.PHASE_SECTION}>
+                {LANDING_PAGE.PHASES.map((phase) => (
+                    <PhaseCard
+                        key={phase.title}
+                        title={phase.title}
+                        description={phase.description}
+                    />
+                ))}
             </section>
 
-            <section className="thinkraft-info-section">
-
-                <h2 className="thinkraft-section-title">
-                    Why Thinkraft
+            <section className={UI_CLASSES.SECTIONS.INFO_SECTION}>
+                <h2 className={UI_CLASSES.TITLES.SECTION}>
+                    {LANDING_PAGE.INFO_SECTION.TITLE}
                 </h2>
 
                 <div className="thinkraft-info-list">
-
-                    <div>No AI invention</div>
-
-                    <div>Your ideas, your way</div>
-
-                    <div>Step-by-step guidance</div>
-
+                    {LANDING_PAGE.INFO_SECTION.BENEFITS.map((benefit) => (
+                        <div key={benefit}>{benefit}</div>
+                    ))}
                 </div>
-
             </section>
-
         </PageShell>
-
     );
-
 }
