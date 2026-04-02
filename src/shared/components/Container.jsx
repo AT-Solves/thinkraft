@@ -8,23 +8,18 @@
  * - No hardcoded styling
  * - Consistent layout across Thinkraft
  * - Centralized control via design system
+ *
+ * Memoized to prevent unnecessary re-renders.
  */
 
-export default function Container({
+import { memo } from "react";
 
-    children,
-    className = ""
-
-}) {
-
+const Container = memo(function Container({ children, className = "" }) {
     return (
-
-        <div className={`page-container ${className}`}>
-
-            {children}
-
-        </div>
-
+        <div className={`page-container ${className}`}>{children}</div>
     );
+});
 
-}
+Container.displayName = "Container";
+
+export default Container;
