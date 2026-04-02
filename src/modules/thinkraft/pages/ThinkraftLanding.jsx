@@ -1,6 +1,7 @@
 import PageShell from "../../../shared/layout/PageShell";
 import PhaseCard from "../components/PhaseCard";
 import { useNavigate } from "react-router-dom";
+import { LANDING_PAGE, UI_CLASSES, ROUTES } from "../../../config/constants";
 
 export default function ThinkraftLanding() {
 
@@ -10,41 +11,34 @@ export default function ThinkraftLanding() {
 
         <PageShell>
 
-            <section className="thinkraft-hero">
+            <section className={UI_CLASSES.LANDING.HERO}>
 
-                <h1 className="thinkraft-hero-title">
-                    Thinkraft
+                <h1 className={UI_CLASSES.LANDING.HERO_TITLE}>
+                    {LANDING_PAGE.HERO.TITLE}
                 </h1>
 
-                <p className="thinkraft-hero-subtitle">
-                    Craft your thinking. Own your idea.
+                <p className={UI_CLASSES.LANDING.HERO_SUBTITLE}>
+                    {LANDING_PAGE.HERO.SUBTITLE}
                 </p>
 
                 <button
-                    onClick={() => navigate("/thinkraft/dashboard")}
-                    className="btn-primary"
+                    onClick={() => navigate(ROUTES.DASHBOARD)}
+                    className={UI_CLASSES.BUTTONS.PRIMARY}
                 >
-                    Get Started
+                    {LANDING_PAGE.HERO.CTA_TEXT}
                 </button>
 
             </section>
 
-            <section className="thinkraft-phase-section">
+            <section className={UI_CLASSES.LANDING.PHASE_SECTION}>
 
-                <PhaseCard
-                    title="Phase 1"
-                    description="Idea Clarity"
-                />
-
-                <PhaseCard
-                    title="Phase 2"
-                    description="Evidence & Logic"
-                />
-
-                <PhaseCard
-                    title="Phase 3"
-                    description="Investor Ready"
-                />
+                {LANDING_PAGE.PHASES.map((phase) => (
+                    <PhaseCard
+                        key={phase.NUMBER}
+                        title={`Phase ${phase.NUMBER}`}
+                        description={phase.DESCRIPTION}
+                    />
+                ))}
 
             </section>
 
