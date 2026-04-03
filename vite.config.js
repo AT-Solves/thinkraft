@@ -7,11 +7,11 @@ export default defineConfig(({ command }) => {
 
         plugins: [react()],
 
-        // Production → GitHub Pages
+        // Production → Custom domain
         // Development → localhost root
         base: command === 'build'
-            ?'/Thinkraft/'   // MUST match GitHub repo name exactly
-            : '/',            // localhost must use root
+            ? '/thinkraft/'   // Custom domain path
+            : '/',             // localhost must use root
 
     };
 

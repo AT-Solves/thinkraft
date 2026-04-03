@@ -2,16 +2,15 @@
   "name": "thinkraft",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://at-solves.github.io/Thinkraft/",
+  "homepage": "https://achieverthoughts.com/thinkraft/",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
+    "dev": "vite",
+    "build": "vite build",
     "deploy": "gh-pages -d dist"
-
   },
   "dependencies": {
     "react": "^19.2.0",
