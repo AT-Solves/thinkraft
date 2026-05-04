@@ -7,11 +7,11 @@ export default defineConfig(({ command }) => {
 
         plugins: [react()],
 
-        // Production → Custom domain
+        // Production → subdirectory deployment
         // Development → localhost root
         base: command === 'build'
-            ? '/thinkraft/'   // Custom domain path
-            : '/',             // localhost must use root
+            ? '/thinkraft/'   // Subdirectory path
+            : '/',            // localhost must use root
 
     };
 
