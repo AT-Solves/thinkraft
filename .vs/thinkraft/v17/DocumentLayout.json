@@ -1,0 +1,230 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\app\\router.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\router.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\modules\\thinkraft\\pages\\ThinkraftLanding.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\modules\\thinkraft\\pages\\ThinkraftLanding.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\modules\\thinkraft\\pages\\ThinkraftDashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\modules\\thinkraft\\pages\\ThinkraftDashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\modules\\thinkraft\\pages\\ThinkraftWorkspace.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\modules\\thinkraft\\pages\\ThinkraftWorkspace.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\styles\\layouts.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\layouts.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\modules\\thinkraft\\state\\useThinkraftSession.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\modules\\thinkraft\\state\\useThinkraftSession.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\modules\\thinkraft\\config\\thinkraftQuestions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\modules\\thinkraft\\config\\thinkraftQuestions.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThinkraftLanding.jsx",
+              "DocumentMoniker": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\modules\\thinkraft\\pages\\ThinkraftLanding.jsx",
+              "RelativeDocumentMoniker": "src\\modules\\thinkraft\\pages\\ThinkraftLanding.jsx",
+              "ToolTip": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\modules\\thinkraft\\pages\\ThinkraftLanding.jsx",
+              "RelativeToolTip": "src\\modules\\thinkraft\\pages\\ThinkraftLanding.jsx",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-02-08T19:10:23.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThinkraftDashboard.jsx",
+              "DocumentMoniker": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\modules\\thinkraft\\pages\\ThinkraftDashboard.jsx",
+              "RelativeDocumentMoniker": "src\\modules\\thinkraft\\pages\\ThinkraftDashboard.jsx",
+              "ToolTip": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\modules\\thinkraft\\pages\\ThinkraftDashboard.jsx",
+              "RelativeToolTip": "src\\modules\\thinkraft\\pages\\ThinkraftDashboard.jsx",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-02-08T19:10:13.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "layouts.css",
+              "DocumentMoniker": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\styles\\layouts.css",
+              "RelativeDocumentMoniker": "src\\styles\\layouts.css",
+              "ToolTip": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\styles\\layouts.css",
+              "RelativeToolTip": "src\\styles\\layouts.css",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAYwAEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-08T19:02:45.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ThinkraftWorkspace.jsx",
+              "DocumentMoniker": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\modules\\thinkraft\\pages\\ThinkraftWorkspace.jsx",
+              "RelativeDocumentMoniker": "src\\modules\\thinkraft\\pages\\ThinkraftWorkspace.jsx",
+              "ToolTip": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\modules\\thinkraft\\pages\\ThinkraftWorkspace.jsx",
+              "RelativeToolTip": "src\\modules\\thinkraft\\pages\\ThinkraftWorkspace.jsx",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-02-08T18:59:33.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "useThinkraftSession.js",
+              "DocumentMoniker": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\modules\\thinkraft\\state\\useThinkraftSession.js",
+              "RelativeDocumentMoniker": "src\\modules\\thinkraft\\state\\useThinkraftSession.js",
+              "ToolTip": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\modules\\thinkraft\\state\\useThinkraftSession.js",
+              "RelativeToolTip": "src\\modules\\thinkraft\\state\\useThinkraftSession.js",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAkwLEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-08T18:57:58.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "router.jsx",
+              "DocumentMoniker": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\app\\router.jsx",
+              "RelativeDocumentMoniker": "src\\app\\router.jsx",
+              "ToolTip": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\app\\router.jsx",
+              "RelativeToolTip": "src\\app\\router.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-02-07T20:09:12.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\vite.config.js",
+              "RelativeDocumentMoniker": "vite.config.js",
+              "ToolTip": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\vite.config.js",
+              "RelativeToolTip": "vite.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-07T20:41:43.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "thinkraftQuestions.js",
+              "DocumentMoniker": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\modules\\thinkraft\\config\\thinkraftQuestions.js",
+              "RelativeDocumentMoniker": "src\\modules\\thinkraft\\config\\thinkraftQuestions.js",
+              "ToolTip": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\modules\\thinkraft\\config\\thinkraftQuestions.js",
+              "RelativeToolTip": "src\\modules\\thinkraft\\config\\thinkraftQuestions.js",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAkwGIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-08T18:56:17.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-07T20:40:28.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-07T20:36:05.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\main.jsx",
+              "RelativeDocumentMoniker": "src\\main.jsx",
+              "ToolTip": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\src\\main.jsx",
+              "RelativeToolTip": "src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-02-07T20:08:31.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\AchieverThoughtsProjects\\Thinkraft\\thinkraft\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-02-07T19:59:56.212Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

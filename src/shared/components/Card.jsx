@@ -8,27 +8,20 @@
  * - No hardcoded styling
  * - Consistent UI across Thinkraft
  * - Easy future design changes
+ *
+ * Memoized to prevent unnecessary re-renders.
  */
 
-export default function Card({
+import { memo } from "react";
 
-    children,
-    className = "",
-    onClick
-
-}) {
-
+const Card = memo(function Card({ children, className = "", onClick }) {
     return (
-
-        <div
-            className={`card ${className}`}
-            onClick={onClick}
-        >
-
+        <div className={`card ${className}`} onClick={onClick}>
             {children}
-
         </div>
-
     );
+});
 
-}
+Card.displayName = "Card";
+
+export default Card;
