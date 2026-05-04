@@ -61,16 +61,20 @@ export const LANDING_PAGE = {
 };
 
 export const DASHBOARD_PAGE = {
-    HEADER_TITLE: "Your Sessions",
-    NEW_SESSION_BTN: "New Session",
-    SESSIONS: [
+    HEADER: {
+        TITLE: "Your Sessions",
+        NEW_SESSION_BTN: "New Session",
+    },
+    SAMPLE_SESSIONS: [
         {
-            TITLE: "Startup Idea Validation Platform",
-            PHASE: "Phase 1 - Idea Clarity",
+            id: 1,
+            title: "Startup Idea Validation Platform",
+            phase: "Phase 1 - Idea Clarity",
         },
         {
-            TITLE: "B2B Trust Marketplace",
-            PHASE: "Phase 2 - Evidence & Logic",
+            id: 2,
+            title: "B2B Trust Marketplace",
+            phase: "Phase 2 - Evidence & Logic",
         },
     ],
 };
@@ -244,6 +248,7 @@ export const UI_CLASSES = {
     TITLES: {
         WORKSPACE_PHASE: "thinkraft-workspace-phase",
         WORKSPACE_QUESTION: "thinkraft-workspace-question",
+        DASHBOARD: "thinkraft-dashboard-title",
     },
     INPUT: {
         TEXTAREA: "thinkraft-workspace__input",

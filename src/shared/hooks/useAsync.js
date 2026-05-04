@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useCallback } from "react";
 
 /**
  * useAsync
@@ -37,6 +37,7 @@ export function useAsync(asyncFunction, immediate = true, dependencies = []) {
         if (immediate) {
             execute();
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, dependencies);
 
     return { status, data, error, execute };

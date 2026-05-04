@@ -19,7 +19,7 @@ export default function ThinkraftWorkspace() {
     const currentQuestion = currentPhase?.questions[questionIndex];
     const isLastPhase = phaseIndex === PHASES.length - 1;
     const isLastQuestion =
-        questionIndex === (currentPhase?.questions.length - 1 ?? 0);
+        questionIndex === ((currentPhase?.questions?.length ?? 0) - 1);
 
     const handlePrevious = () => {
         if (questionIndex > 0) {

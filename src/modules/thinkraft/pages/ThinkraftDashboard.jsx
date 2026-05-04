@@ -9,7 +9,7 @@ import { DASHBOARD_PAGE, UI_CLASSES } from "../../../config/constants";
 export default function ThinkraftDashboard() {
     return (
         <ThinkraftDashboardLayout>
-            <div className={UI_CLASSES.SECTIONS.DASHBOARD_HEADER}>
+            <div className={UI_CLASSES.DASHBOARD.HEADER}>
                 <h1 className={UI_CLASSES.TITLES.DASHBOARD}>
                     {DASHBOARD_PAGE.HEADER.TITLE}
                 </h1>
@@ -19,7 +19,7 @@ export default function ThinkraftDashboard() {
                 </Button>
             </div>
 
-            <div className={UI_CLASSES.SECTIONS.DASHBOARD_SESSIONS}>
+            <div className={UI_CLASSES.DASHBOARD.SESSIONS}>
                 {DASHBOARD_PAGE.SAMPLE_SESSIONS.map((session) => (
                     <SessionCard
                         key={session.id}
